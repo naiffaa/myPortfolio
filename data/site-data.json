@@ -1,0 +1,206 @@
+{
+  "brand": {
+    "name": "Naifa Al-arifi",
+    "tagline": "AI Engineer | IT Student | Building Intelligent Systems",
+    "logo_url": "",
+    "primary_color": "#6366f1",
+    "secondary_color": "#0a0a0a"
+  },
+  "navbar": {
+    "show": true,
+    "links": [
+      { "label": "About", "target_section": "about" },
+      { "label": "Resume", "target_section": "cv" },
+      { "label": "Projects", "target_section": "portfolio" },
+      { "label": "Courses", "target_section": "certificates" },
+      { "label": "Trophies", "target_section": "trophies" },
+      { "label": "Skills", "target_section": "services" }
+    ],
+    "cta_text": "Contact Me"
+  },
+  "hero": {
+    "headline": "AI Engineer & Developer",
+    "subheadline": "IT student with a strong focus on Artificial Intelligence, plus hands-on experience in web development, intelligent systems, and IoT-based solutions.",
+    "background_type": "video",
+    "background_url": "https://videos.pexels.com/video-files/3129671/3129671-uhd_2560_1440_30fps.mp4",
+    "primary_cta_text": "",
+    "secondary_cta_text": "",
+    "trust_badges": []
+  },
+  "about": {
+    "headline": "About Me",
+    "name": "Naifa Al-arifi",
+    "bio": "I am an IT student specializing in Artificial Intelligence with hands-on experience in building intelligent systems, AI models, and real-world applications. My interests extend to software systems, web development, and IoT, allowing me to build complete solutions that combine intelligence with practical implementation.",
+    "profile_image_url": "",
+    "experience_years": "4+",
+    "clients_served": "4+",
+    "credentials": [
+      "SDAIA - Building LLMs from Scratch",
+      "SDAIA - Developing Generative AI Solutions",
+      "KAUST - Advanced Artificial Intelligence",
+      "Misk Skills - AI & Computer Vision"
+    ],
+    "social_links": {
+      "linkedin": "https://www.linkedin.com/in/naifa-al-arifi-64602229b",
+      "github": "https://github.com/naiffaa"
+    }
+  },
+  "cv": {
+    "headline": "Resume / CV",
+    "description": "View or download my resume.",
+    "file_url": "/Naifa_Al-arifi.pdf",
+    "button_text": "Download Resume"
+  },
+  "portfolio": {
+    "headline": "Selected Projects",
+    "items": [
+      {
+        "type": "project",
+        "thumbnail_url": "/projects/makani.jpg",
+        "media_url": "",
+        "title": "Makani – AI-Powered Real Estate Search Engine",
+        "description": "Developed an intelligent search platform using NLP and LLMs to process real estate queries and deliver ranked search results.",
+        "tags": ["AI", "LLMs", "NLP", "FastAPI", "Next.js"],
+        "before_url": "",
+        "live_url": "https://saudi-real-estate-makani.vercel.app",
+        "github_url": "https://github.com/naiffaa",
+        "post_url": "https://www.linkedin.com/posts/naifa-al-arifi-64602229b_%D8%AA%D9%85-%D8%A8%D8%AD%D9%85%D8%AF%D8%A7%D9%84%D9%84%D9%87-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D9%87%D8%A7%D8%A1-%D9%85%D9%86-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC-llms-from-activity-7442430995334684672-XN4_?utm_source=share&utm_medium=member_ios&rcm=ACoAAEhwoxYBpVhNMz0A7k795XLfMMaBN0iXn6A"
+      },
+      {
+        "type": "project",
+        "thumbnail_url": "/projects/wildarabia.jpg",
+        "media_url": "",
+        "title": "WildArabia – AI-Based Wildlife Identification System",
+        "description": "Developed an AI-powered system using computer vision to identify and classify wildlife species and provide accurate recognition insights.",
+        "tags": ["AI", "Computer Vision", "PyTorch"],
+        "before_url": "",
+        "live_url": "",
+        "github_url": "",
+        "post_url": "https://www.linkedin.com/posts/naifa-al-arifi-64602229b_samsunginnovationcampus-miskskills-artificialintelligence-activity-7411132579610787847-pLMP?utm_source=share&utm_medium=member_ios&rcm=ACoAAEhwoxYBpVhNMz0A7k795XLfMMaBN0iXn6A"
+      },
+      {
+        "type": "project",
+        "thumbnail_url": "/projects/tabayyun.jpg",
+        "media_url": "",
+        "title": "Tabayyun – AI-Driven Anomaly Detection System",
+        "description": "Built a machine learning system to detect abnormal patterns in financial transactions and support early anomaly detection.",
+        "tags": ["AI", "Machine Learning", "Anomaly Detection"],
+        "before_url": "",
+        "live_url": "",
+        "github_url": "https://github.com/naiffaa/tabayan",
+        "post_url": "https://www.linkedin.com/posts/naifa-al-arifi-64602229b_aevaepaeraepaetaewaeuabraelaeqaecaezabraefaewaeyaeq-activity-7406043339458064384-mQBf?utm_source=share&utm_medium=member_ios&rcm=ACoAAEhwoxYBpVhNMz0A7k795XLfMMaBN0iXn6A"
+      },
+      {
+        "type": "project",
+        "thumbnail_url": "/projects/seen.jpg",
+        "media_url": "",
+        "title": "SEEN – Smart Emergency Wearable System",
+        "description": "Developed a complete emergency response system including a wearable device, cross-platform mobile applications, and cloud integration for real-time alerts.",
+        "tags": ["IoT", "Mobile App", "Cloud", "Wearable"],
+        "before_url": "",
+        "live_url": "",
+        "github_url": "https://github.com/naiffaa/SeenApp2",
+        "post_url": ""
+      }
+    ]
+  },
+  "certificates": {
+    "headline": "Courses & Programs",
+    "items": [
+      {
+        "title": "Building LLMs from Scratch",
+        "issuer": "SDAIA",
+        "image": "/certificates/building-llms-from-scratch.jpg"
+      },
+      {
+        "title": "Developing Generative AI Solutions",
+        "issuer": "SDAIA",
+        "image": "/certificates/developing-generative-ai-solutions.jpg"
+      },
+      {
+        "title": "Advanced Artificial Intelligence Course",
+        "issuer": "KAUST",
+        "image": "/certificates/advanced-artificial-intelligence-kaust.jpg"
+      },
+      {
+        "title": "AI & Computer Vision Training",
+        "issuer": "Misk Skills",
+        "image": "/certificates/ai-computer-vision-misk.jpg"
+      },
+      {
+        "title": "Mechatronics Bootcamp",
+        "issuer": "Tuwaiq Academy",
+        "image": "/certificates/mechatronics-bootcamp.jpg"
+      },
+      {
+        "title": "UI/UX Training",
+        "issuer": "Tuwaiq Academy",
+        "image": "/certificates/ui-ux-training.jpg"
+      },
+      {
+        "title": "Mathematics for Machine Learning and Data Science",
+        "issuer": "Coursera",
+        "image": "/certificates/math-ml.jpg"
+      }
+    ]
+  },
+  "trophies": {
+    "headline": "My Trophies",
+    "items": [
+      {
+        "title": "Haqthon",
+        "description": "Winning third place with the project “Rafiq” at the national level in Hackathon Haqthon, organized by the Human Rights Commission, within the Knowledge Track, among several teams and projects.",
+        "images": [
+          "/trophies/haqthon-1.jpg",
+          "/trophies/haqthon-2.jpg",
+          "/trophies/haqthon-3.jpg"
+        ]
+      },
+      {
+        "title": "Absher Tuwaiq Hackathon",
+        "description": "Participated in the Absher Tuwaiq Hackathon and contributed to setting a Guinness World Record for the largest hackathon in the world, representing Saudi Arabia.",
+        "images": [
+          "/trophies/absher-tuwaiq.jpg"
+        ]
+      },
+      {
+        "title": "Robotics & Sports Club Leadership Recognition",
+        "description": "Awarded a certificate of appreciation from the Robotics & Sports Club at Imam Mohammad Ibn Saud Islamic University in recognition of leadership, continuous contribution, and active role in mentoring members, strengthening teamwork, and supporting the club’s mission and impact.",
+        "images": [
+          "/trophies/robotics-club.jpg"
+        ]
+      }
+    ]
+  },
+  "services": {
+    "headline": "My Skills",
+    "items": []
+  },
+ "cta": {
+    "headline": "Let’s Get in Touch",
+    "subheadline": "Have a project in mind, want to collaborate, or simply say hi? My email and phone are always open.",
+    "primary_cta_text": "Email Me",
+    "secondary_cta_text": "Open LinkedIn"
+  },
+  "footer": {
+    "about_text": "AI-focused IT student passionate about building intelligent systems, software solutions, and real-world technical projects.",
+    "links": [
+      { "label": "About", "url": "#about" },
+      { "label": "Resume", "url": "#cv" },
+      { "label": "Projects", "url": "#portfolio" },
+      { "label": "Courses", "url": "#certificates" },
+      { "label": "Trophies", "url": "#trophies" },
+      { "label": "Skills", "url": "#services" },
+      { "label": "Contact", "url": "#cta" }
+    ],
+    "contact": {
+      "email": "naifa.arifi@gmail.com",
+      "phone": "0503281081",
+      "location": "Riyadh, Saudi Arabia"
+    },
+    "social_links": {
+      "linkedin": "https://www.linkedin.com/in/naifa-al-arifi-64602229b",
+      "github": "https://github.com/naiffaa"
+    }
+  }
+}
