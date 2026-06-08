@@ -37,10 +37,16 @@ export function Navbar({ data, brand }: NavbarProps) {
 
   const scrollToSection = (targetSection: string) => {
     const element = document.getElementById(targetSection)
-    if (!element) return
 
-    const headerOffset = 100
-    const elementPosition = element.getBoundingClientRect().top + window.scrollY
+    if (!element) {
+      console.warn(`Section with id "${targetSection}" was not found`)
+      return
+    }
+
+    const headerOffset = 110
+    const elementPosition =
+      element.getBoundingClientRect().top + window.pageYOffset
+
     const offsetPosition = elementPosition - headerOffset
 
     window.scrollTo({
@@ -56,6 +62,7 @@ export function Navbar({ data, brand }: NavbarProps) {
       top: 0,
       behavior: "smooth",
     })
+
     setIsMobileMenuOpen(false)
   }
 
@@ -104,7 +111,10 @@ export function Navbar({ data, brand }: NavbarProps) {
           aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
           onClick={() => setIsMobileMenuOpen((prev) => !prev)}
           className="rounded-xl p-2 text-white md:hidden"
-          style={{ WebkitTapHighlightColor: "transparent", touchAction: "manipulation" }}
+          style={{
+            WebkitTapHighlightColor: "transparent",
+            touchAction: "manipulation",
+          }}
         >
           {isMobileMenuOpen ? (
             <X className="h-8 w-8" />

@@ -23,47 +23,49 @@ export default function Home() {
 
       <div>
         {data.hero?.headline && (
-          <Hero data={data.hero} />
+          <section id="home" className="scroll-mt-28">
+            <Hero data={data.hero} />
+          </section>
         )}
 
         {data.about?.name && (
-          <section id="about">
+          <section id="about" className="scroll-mt-28">
             <About data={data.about} />
           </section>
         )}
 
         {data.cv?.headline && (
-          <section id="cv">
+          <section id="cv" className="scroll-mt-28">
             <CVSection data={data.cv} />
           </section>
         )}
 
         {data.portfolio?.items?.length > 0 && (
-          <section id="portfolio">
+          <section id="portfolio" className="scroll-mt-28">
             <Portfolio data={data.portfolio} />
           </section>
         )}
 
         {data.certificates?.items?.length > 0 && (
-          <section id="certificates">
+          <section id="certificates" className="scroll-mt-28">
             <Certificates data={data.certificates} />
           </section>
         )}
 
         {data.trophies?.items?.length > 0 && (
-          <section id="trophies">
+          <section id="trophies" className="scroll-mt-28">
             <Trophies data={data.trophies} />
           </section>
         )}
 
         {data.services?.headline && (
-          <section id="services">
+          <section id="services" className="scroll-mt-28">
             <Services data={data.services} />
           </section>
         )}
 
         {data.cta?.headline && (
-          <section id="cta">
+          <section id="cta" className="scroll-mt-28">
             <CTASection data={data.cta} />
           </section>
         )}
